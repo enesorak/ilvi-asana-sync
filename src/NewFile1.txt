@@ -1,0 +1,2 @@
+dotnet ef migrations add InitialCreate --startup-project src/Ilvi.Asana.Web --project src/Ilvi.Asana.Infrastructure -o Persistence/Migrations
+dotnet ef database update --startup-project src/Ilvi.Asana.Web --project src/Ilvi.Asana.Infrastructure

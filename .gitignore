@@ -1,0 +1,59 @@
+# .NET
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.log
+*.tlog
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+bld/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+
+# User-specific files
+appsettings.Development.json
+appsettings.Local.json
+
+# Logs
+logs/
+*.log
+
+# Attachments (downloaded files)
+attachments/
+
+# Environment
+.env
+.env.*
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Database files
+*.mdf
+*.ldf
+*.ndf

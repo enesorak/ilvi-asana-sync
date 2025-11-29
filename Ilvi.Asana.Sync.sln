@@ -1,0 +1,57 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E87B8FD0-EF63-44B5-B40A-558BDB287745}"
+	ProjectSection(SolutionItems) = preProject
+		src\NewFile1.txt = src\NewFile1.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B7970EA4-B46D-438D-9687-34AAE8B3A2EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ilvi.Asana.Domain", "src\Ilvi.Asana.Domain\Ilvi.Asana.Domain.csproj", "{BCC1C224-39CF-4F96-88B5-77B06F65C364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ilvi.Asana.Application", "src\Ilvi.Asana.Application\Ilvi.Asana.Application.csproj", "{F4DDF704-8EF6-4F50-864A-99DEC79FB872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ilvi.Asana.Infrastructure", "src\Ilvi.Asana.Infrastructure\Ilvi.Asana.Infrastructure.csproj", "{A776DB74-F30E-42FB-8DD0-1A5910D514A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ilvi.Asana.Web", "src\Ilvi.Asana.Web\Ilvi.Asana.Web.csproj", "{772B56A9-AD91-4FDD-B723-D656A301441E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ilvi.Asana.Tests", "tests\Ilvi.Asana.Tests\Ilvi.Asana.Tests.csproj", "{A272F88A-116F-49DF-A9F2-55F9190A1F7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCC1C224-39CF-4F96-88B5-77B06F65C364} = {E87B8FD0-EF63-44B5-B40A-558BDB287745}
+		{F4DDF704-8EF6-4F50-864A-99DEC79FB872} = {E87B8FD0-EF63-44B5-B40A-558BDB287745}
+		{A776DB74-F30E-42FB-8DD0-1A5910D514A0} = {E87B8FD0-EF63-44B5-B40A-558BDB287745}
+		{772B56A9-AD91-4FDD-B723-D656A301441E} = {E87B8FD0-EF63-44B5-B40A-558BDB287745}
+		{A272F88A-116F-49DF-A9F2-55F9190A1F7D} = {B7970EA4-B46D-438D-9687-34AAE8B3A2EA}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCC1C224-39CF-4F96-88B5-77B06F65C364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC1C224-39CF-4F96-88B5-77B06F65C364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC1C224-39CF-4F96-88B5-77B06F65C364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC1C224-39CF-4F96-88B5-77B06F65C364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4DDF704-8EF6-4F50-864A-99DEC79FB872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4DDF704-8EF6-4F50-864A-99DEC79FB872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4DDF704-8EF6-4F50-864A-99DEC79FB872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4DDF704-8EF6-4F50-864A-99DEC79FB872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A776DB74-F30E-42FB-8DD0-1A5910D514A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A776DB74-F30E-42FB-8DD0-1A5910D514A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A776DB74-F30E-42FB-8DD0-1A5910D514A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A776DB74-F30E-42FB-8DD0-1A5910D514A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{772B56A9-AD91-4FDD-B723-D656A301441E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772B56A9-AD91-4FDD-B723-D656A301441E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772B56A9-AD91-4FDD-B723-D656A301441E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772B56A9-AD91-4FDD-B723-D656A301441E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A272F88A-116F-49DF-A9F2-55F9190A1F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A272F88A-116F-49DF-A9F2-55F9190A1F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A272F88A-116F-49DF-A9F2-55F9190A1F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A272F88A-116F-49DF-A9F2-55F9190A1F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
